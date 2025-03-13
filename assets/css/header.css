@@ -6,6 +6,7 @@ header{
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   
   padding: 0rem 6.7rem;
 }
@@ -34,3 +35,60 @@ header > #logo > #logo-text span{
   text-indent: 1.55rem;
 }
 
+
+header > #menu-itens{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+
+header > #menu-itens > nav > ul{
+  display: flex;  
+  gap: 3.7rem;
+
+}
+
+header > #menu-itens > nav > ul > li {
+  font-size: 1.8rem;
+  font-weight: 500;
+  list-style: none;
+}
+
+
+header > #menu-itens > #menu-itens-icons{
+  display: flex;
+  gap: 1.9rem;
+}
+
+header > #menu-itens > nav > ul > #item > a{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+header > #menu-itens > #join-button{
+  width: 13.1rem;
+  height: 3.3rem;
+  background-color: #89D3D1;
+  border-radius: 7.1rem;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-decoration: none;
+
+  transition: background-color 0.3s ease;
+}
+
+header > #menu-itens > #join-button:hover{
+  background-color: #659b99;
+}
