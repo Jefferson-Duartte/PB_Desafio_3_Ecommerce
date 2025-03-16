@@ -8,7 +8,7 @@
 }
 
 #principal-plush-title {
-  width: 56.8rem;
+  width: auto;
   height: 6.7rem;
   margin-bottom: 6.7rem;
 
@@ -19,6 +19,7 @@
 
   border-radius: 6.2rem;
   border: 3px #baa370 solid;
+  margin-top: -33px;
 }
 
 #principal-plush-title > h2 {
@@ -78,4 +79,29 @@
   font-family: "Roboto";
   font-size: 2rem;
   font-weight: 600;
+}
+
+
+#principal-plush-button{
+  width: 237px;
+  height: 48px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 29px;
+  background-color: #BF8B70;
+
+  margin-top: 65px;
+  margin-bottom: 71px;
+  border: 2px solid #FFFFFF;
+  box-shadow: 0px 4px 0px 0px #00000035;
+
+  color: #FFFFFF;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+#principal-plush-button:hover{
+  background-color: #a87b63;
 }
