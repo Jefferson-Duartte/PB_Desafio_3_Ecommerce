@@ -20,6 +20,7 @@
   border-radius: 6.2rem;
   border: 3px #baa370 solid;
   margin-top: -33px;
+  background-color: #FFFFFF;
 }
 
 #principal-plush-title > h2 {
@@ -100,6 +101,7 @@
   color: #FFFFFF;
   font-weight: 600;
   transition: background-color 0.3s ease;
+  cursor: pointer;
 }
 
 #principal-plush-button:hover{
