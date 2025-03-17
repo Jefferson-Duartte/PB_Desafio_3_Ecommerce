@@ -1,0 +1,132 @@
+.news-section{
+  width: 100%;
+  height: 978px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-section #title{
+  display: flex;
+  gap: 3px;
+  margin-bottom: 54px;
+}
+
+
+.news-section #title > h1{
+  font-size: 4.8rem;
+}
+
+
+.news-section #cards{
+  display: flex;
+  gap: 32px;
+
+  margin-right: 64px;
+  margin-left: 64px;
+}
+
+.news-section #cards #card-left{
+  width: 65.1rem;
+
+  border-radius: 42px;
+  border: 3px #baa370 solid;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.news-section #cards #card-left > img {
+  width: 100%;
+}
+
+.news-section #cards #card-left #text{
+  margin: 19px 48px 49px 48px;
+  height: 100%;
+}
+
+.news-section #cards #card-left #text > h2{
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 19px;
+}
+
+.news-section #cards #card-left #text > p{
+  margin-bottom: 28px;
+  line-height: 150%;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.news-section #cards #card-left #text > a{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.news-section #cards #card-left #text > a > img{
+  transform:rotate(-90deg);
+}
+
+.news-section #cards #cards-right .card{
+  width: 64rem;
+  height: 33.8rem;
+  display: flex;
+
+  border-radius: 15px;
+  border: 3px #baa370 solid;
+}
+
+.news-section #cards #cards-right{
+  display: flex;
+  flex-direction: column; 
+  gap: 32px;
+}
+
+.news-section #cards #cards-right .card .text{
+  margin: 40px 24px 44px 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.news-section #cards #cards-right .card .text > h2{
+  margin-bottom: 8px;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.news-section #cards #cards-right .card .text > p{
+  width: 253px;
+  margin-bottom: 18px;
+  line-height: 150%;
+}
+
+.news-section #cards  #cards-right .card .text > a{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.news-section #cards  #cards-right .card .text > a > img{
+  transform:rotate(-90deg);
+}
+
+.blue{
+  background-color: #E1EDE9;
+}
+
+.beige{
+  background-color: #F0DACD;
+}
