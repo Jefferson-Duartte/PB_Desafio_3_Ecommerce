@@ -98,4 +98,10 @@
   .hero-section > #promo-banners {
     top: 80px;
   }
+
+  .hero-section > img {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+  }
 }
