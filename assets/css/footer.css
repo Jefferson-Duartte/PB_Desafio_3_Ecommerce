@@ -1,0 +1,145 @@
+footer {
+  width: 100%;
+  height: 622px;
+
+  background-color: #f0dacd;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#footer-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 39px 67px 0px 67px;
+}
+
+#newsletter-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+#newsletter-section #newsletter-title > h2 {
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+#newsletter-section #newsletter-title > p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+#newsletter-section #newsletter-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#newsletter-section #newsletter-form > form {
+  display: flex;
+  gap: 16px;
+}
+
+#newsletter-section #newsletter-form > form > button {
+  width: 163px;
+  background-color: #bf8b70;
+  font-size: 1.6rem;
+  color: #ffffff;
+  border: 1px solid #000000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#newsletter-section #newsletter-form > form > button:hover {
+  background-color: #a87b63;
+}
+
+#newsletter-section #newsletter-form > form > input {
+  display: block;
+  width: 221px;
+  height: 48px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+
+  border: 1px solid #000000;
+}
+
+#divider {
+  width: 100%;
+  height: 6px;
+  margin-top: 48px;
+  background-color: #c9b079;
+}
+
+#footer-links {
+  width: 100%;
+  display: flex;
+  margin-top: 66px;
+  justify-content: space-between;
+}
+
+#footer-links #footer-column > h3 {
+  line-height: 150%;
+  margin-bottom: 16px;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+#footer-links #footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer-links #footer-column #links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#footer-links #footer-column #links > a {
+  font-size: 1.4rem;
+  line-height: 150%;
+}
+
+#footer-logo {
+  width: 100%;
+  background-color: #ffffff;
+  height: 109px;
+
+  padding: 0px 67px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer-logo > #logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#footer-logo > #logo > #logo-img {
+  width: 4.8rem;
+  height: 5.7rem;
+  margin-right: -0.6rem;
+}
+
+#footer-logo > #logo > #logo-text {
+  font-size: 2.4rem;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 83%;
+}
+
+#footer-logo > #logo > #logo-text span {
+  display: inline-block;
+  text-indent: 1.55rem;
+}
