@@ -27,6 +27,8 @@
 
 .characteristics .characteristics-cards {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 48px;
 }
 
@@ -60,4 +62,17 @@
   width: 348px;
   text-align: center;
   margin-top: 6px;
+}
+
+
+@media (max-width: 1400px) {
+  .characteristics{
+    height: 100%;
+    padding: 80px;
+  }
+}
+@media (max-width: 740px) {
+  .characteristics #characteristics-title > h1 {
+    font-size: 4rem;
+  }
 }

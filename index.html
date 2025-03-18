@@ -88,6 +88,9 @@
         </div>
         <a id="join-button" href="#">Acquista ora</a>
       </div>
+      <div class="mobile-menu-icon">
+        <button onclick="menuShow()"><img class="icon" src="assets/img/icons/lista.png" alt=""></button>
+      </div>
     </header>
     <section class="hero-section">
       <img src="assets/img/banner-main.png" />
@@ -415,9 +418,10 @@
             </div>
             <div id="newsletter-form">
               <form>
-                <input type="email" placeholder="inserisci la tua email">
-                <button type="submit">Isciviti adesso</button>
+                <input type="email" id="email-input" placeholder="inserisci la tua email">
+                <button type="submit" id="subscribe-button" disabled>Isciviti adesso</button>
               </form>
+              <span id="email-error" class="error-message"></span> 
               <a href="#">Iscrivendoti accetti la nostra Privacy Policy</a>
             </div>
         </div>
@@ -454,16 +458,6 @@
               </div>
             </div>
             <div id="footer-column">
-              <h3>Social</h3>
-              <div id="links">
-                <a href="#">Instagram</a>
-                <a href="#">Facebook</a>
-                <a href="#">Twitter</a>
-                <a href="#">You Tube </a>
-                <a href="#">Pinteres</a>
-              </div>
-            </div>
-            <div id="footer-column">
               <h3>Supporto</h3>
               <div id="links">
                 <a href="#">Il mio conto</a>
@@ -471,6 +465,16 @@
                 <a href="#">Spedizione</a>
                 <a href="#">Spedizione estiva</a>
                 <a href="#">Richiamare</a>
+              </div>
+            </div>
+            <div id="footer-column">
+              <h3>Social</h3>
+              <div id="links">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">You Tube </a>
+                <a href="#">Pinteres</a>
               </div>
             </div>
         </div>
@@ -486,5 +490,8 @@
         <p>© 2023 TeddyShop. Tutti i diritti riservati.</p>
       </div>
     </footer>
+
+    <script src="assets/js/menuShow.js"></script>
+    <script src="assets/js/formValidation.js"></script>
   </body>
 </html>

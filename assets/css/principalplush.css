@@ -37,6 +37,7 @@
 .principal-plush .plush-cards {
   display: flex;
   gap: 32px;
+  flex-wrap: wrap;
 }
 
 .principal-plush .plush-cards .card {
@@ -106,4 +107,41 @@
 
 #principal-plush-button:hover{
   background-color: #a87b63;
+}
+
+@media(max-width:1400px){
+  .principal-plush{
+    height: 100%;
+  }
+  
+  .principal-plush .plush-cards{
+    justify-content: center;
+  }
+
+  .principal-plush .plush-cards .card {
+    margin-top: 20px;
+  }
+}
+@media(max-width:750px){
+  .principal-plush .plush-cards .card .card-image{
+    min-height: 210px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .principal-plush .plush-cards .card .card-image > img{
+    width:100%;
+  }
+
+  #principal-plush-title > h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    font-style: italic;
+    margin-right: 34px;
+  }
+  
+  #principal-plush-title > img {
+    margin-left: 16px;
+    width: 10%;
+  }
 }
